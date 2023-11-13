@@ -1,0 +1,12 @@
+## Notice
+Temperature Calibration
+1. When the module is inserted for the first time, it may take longer to display the image on an iOS device. It may be about 2 to 3 seconds. It is because of the necessary step of reading the module flash at the first time. This won't happen after that.
+
+2. The temperature data is inaccurate each time the image is just displayed. In this situation, we will start the shutter to calibrate the temperature. Please pay special attention to the times of starting the shutter because the temperature will not become accurate after just starting the shutter once.
+
+Please start the shutter in the following rhythm:
+A countdown of 20 seconds: start the shutter at the countdown to 19s; start it again at the countdown to 16s; start it again at the countdown to 13s; start it again at the countdown to 8s; start it again at the countdown to 5s.
+
+It is the time to start the shutter when there is data for proxy callback. At that time, parameters can also be set.
+
+Please pay attention when exiting the screen. Please call the delete proxy and then call the stop imaging output. Return to the previous page only after the image output is stopped successfully.

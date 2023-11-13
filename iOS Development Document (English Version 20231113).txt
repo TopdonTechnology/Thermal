@@ -1,0 +1,62 @@
+SDK Introduction
+===============================
+
+The P2 iOS SDK (hereinafter referred to as "SDK") implements the APIs for P2 infrared cameras on iOS. It provides the customer with the reference demo and low-level packaging libraries for secondary development.
+
+SDK Development Environment
+===================================
+
+Xcode 12.4.1+
+
+iOS11+
+
+Importing the SDK
+===========================
+
+Step 1
+----------------
+
+Place the INFIP2SDK.framework in the project directory.
+
+![](接口开发说明文档 Interface development instructions.images/zu2Jr0.png)
+
+ 
+
+Step 2
+----------------
+
+Xcode -\> Targets -\> General -\> Frameworks, Libraries, and Embedded Content
+
+Choose Embed & Sign or Embed Without Signing correspondingly based on the INFIP2SDK.framework.
+
+![](接口开发说明文档 Interface development instructions.images/4lzqSn.png)
+
+ 
+
+Step 3
+----------------
+
+Place the IFBundle.bundle from the INFIP2SDK.framework in the project directory.
+
+![](接口开发说明文档 Interface development instructions.images/YdVF5P.png)
+
+ 
+
+Step 4
+----------------
+
+Xcode -\> Targets -\> Info  add ”Supported external accessory protocols” set
+”com.alcorlink.camera".
+Choose Embed & Sign or Embed Without Signing correspondingly based on the INFIP2SDK.framework.
+
+![](接口开发说明文档 Interface development instructions.images/R1aA4I.png)
+
+ 
+
+API Guide
+=========================
+
+Refer to the API documentation and the [Sample
+Code](SampleCode/INFIP2Demo/INFIP2Demo.xcworkspace).
+
+ 
